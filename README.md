@@ -15,10 +15,10 @@ Feel free to join our [Discord](http://discord.gg/2gdypBhsye)
 
 ---
 # Description
-It does what the title says it does! Play the piano
-and become the entertainer of the saloons. When you
-walk up to the piano, you can use space to start
-playing. If you want to stop, you simply hit F.
+It does what the title says it does! Play the piano<br>
+and become the entertainer of the saloons. When you<br>
+walk up to the piano, you can use space to start<br>
+playing. If you want to stop, you simply hit F.<br>
 If you couldn't in real life, now you can in RedM!
 
 ---
@@ -28,15 +28,15 @@ If you couldn't in real life, now you can in RedM!
 
 ---
 # Disclaimer
-I have added 6 pianos to the script, these are the
-most used saloon places. If you want to add more
-pianos on the list, then keep in mind that now all
-pianos work! This has to do with the seat in front
-of it. Small round seats can be used, while chairs
-can't. This is also the final version! It could be
-that I change a little here and there, but don't
-expect much more made in this script. I would not
-know what to put extra in it. If you have any ideas
+I have added 6 pianos to the script, these are the<br>
+most used saloon places. If you want to add more<br>
+pianos on the list, then keep in mind that now all<br>
+pianos work! This has to do with the seat in front<br>
+of it. Small round seats can be used, while chairs<br>
+can't. This is also the final version! It could be<br>
+that I change a little here and there, but don't<br>
+expect much more made in this script. I would not<br>
+know what to put extra in it. If you have any ideas<br>
 for a future update, feel free to contact me.
 
 ---
