@@ -1,7 +1,7 @@
 ---
 <p align="center">
   <img width="600" height="200" src="https://billkleinpiano.com/wp-content/uploads/banner-interior.jpg"><br>
- <b>Version (v1.0.0) (WIP)</b> - DevDokus - Play Piano - Play the piano like a pro in RedM
+ <b>Version (v1.0.0)</b> - DevDokus - Play Piano - Play the piano like a pro in RedM
 </p>
 
 ---
