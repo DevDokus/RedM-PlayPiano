@@ -5,7 +5,7 @@ description 'Play the piano like a pro on RedM!'
 author 'DevDokus Github'
 fx_version "adamant"
 games {"rdr3"}
-version '1.0.0'
+version '1.1.0'
 
 client_scripts { 'config.lua', '[Core]/[Client]/*.lua' }
 
