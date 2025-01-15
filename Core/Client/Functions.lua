@@ -16,27 +16,39 @@
 --################################################################################--
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
-DC      = {};
-DC.Text = {};
+function Func:CheckDist(PID, Coords, Dist)
+  local C = GetEntityCoords(PID);
+  local D = Vdist(C.x, C.y, C.z, Coords.x, Coords.y, Coords.z);
+  if (D <= Dist) then return true; end;
+  return false
+end;
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
-DC.Distance = 1.2;
-------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------
-DC.Text.Title = "Piano";
-DC.Text.Play  = "Play";
-DC.Text.Stop  = "Stop";
-------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------
-DC.Pianos = {
-  { ID = "Valentine",    Coords = vec3(-312.36, 799.05, 118.48),   Heading = 102.30 },
-  { ID = "Saint Dennis", Coords = vec3(2631.82,  -1232.31, 53.70), Heading = 62.0   },
-  { ID = "Rhodos",       Coords = vec3(1346.95,  -1371.07, 79.99), Heading = 351.0  },
-  { ID = "Blackwater",   Coords = vec3(-814.98,  -1313.04, 43.18), Heading = 358.0  },
-  { ID = "Armadillo",    Coords = vec3(-3706.38, -2589.00, -13.8), Heading = 360.0  },
-  { ID = "Tumbleweed",   Coords = vec3(-5516.0,  -2914.53, -2.26), Heading = 121.4  },
-  { ID = "vHoorn",       Coords = vec3(2944.12,   528.87,  44.85), Heading = 359.03 }
-}
+function Func:ActPrompts()
+  CreateThread(function()
+    local str = 'Play'
+    Key_Start = PromptRegisterBegin();
+    PromptSetControlAction(Key_Start, Keys.E);
+    str = CreateVarString(10, 'LITERAL_STRING', str);
+    PromptSetText(Key_Start, str);
+    PromptSetEnabled(Key_Start, true);
+    PromptSetVisible(Key_Start, true);
+    PromptSetHoldMode(Key_Start, true);
+    PromptSetGroup(Key_Start, Key_Group);
+    PromptRegisterEnd(Key_Start);
+
+    local str = 'Stop'
+    Key_Stop = PromptRegisterBegin();
+    PromptSetControlAction(Key_Stop, Keys.B);
+    str = CreateVarString(10, 'LITERAL_STRING', str);
+    PromptSetText(Key_Stop, str);
+    PromptSetEnabled(Key_Stop, true);
+    PromptSetVisible(Key_Stop, true);
+    PromptSetHoldMode(Key_Stop, true);
+    PromptSetGroup(Key_Stop, Key_Group);
+    PromptRegisterEnd(Key_Stop);
+  end);
+end;
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
 
@@ -85,5 +97,3 @@ DC.Pianos = {
 ------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------

@@ -1,19 +1,19 @@
 ---
 <p align="center">
   <img width="600" height="200" src="https://billkleinpiano.com/wp-content/uploads/banner-interior.jpg"><br>
- <b>Version (v1.2.0) (WIP)</b> - DevDokus - Play Piano - Play the piano like a pro in RedM
+ <b>Version (v1.3.0) (WIP)</b> - DevDokus - Play Piano - Play the piano like a pro in RedM
 </p>
 
 ---
 # Requirements
-- [VorpCore](https://github.com/VORPCORE/VORP-Core)
+This plugin had does not require a framework.
 
 ---
 # Discord
 If you need any information about my script,<br>
 if you found a bug, if you have an idea for the <br>
 next version, or if you simply need some help.<br>
-Feel free to join our [Discord](http://discord.gg/2gdypBhsye)
+Feel free to join our [Discord](https://discord.com/invite/ksQRq25Hcz)
 
 ---
 # Description
